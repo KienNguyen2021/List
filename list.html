@@ -18,10 +18,88 @@
         p{
             color:brown;
             background-color: aqua;
+           }
+
+        table, td{
+            border:4px solid blue;
+              }
+        th {
+            background-color: dodgerblue;
         }
+
+        td {
+            
+            font-size:larger;
+            text-align: center;   
+         }
+
+         
+         #imploy tr:nth-child(odd){
+             background-color:rgb(197, 237, 17);
+             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             font-style: italic;
+         }
+
+
+         #imploy tr:nth-child(even){
+            background-color:rgb(237, 17, 171);
+            font-family:fantasy;
+            font-style: italic;
+        }
+        
     </style>
+
+
 </head>
 <body>
+
+    <h1> This is table </h1>
+
+    <table id="imploy" style="width:40%">
+
+        <tr> 
+            <td colspan="3"> EMPLOYEE DATA </td>
+        </tr>
+        <tr>  <!-- This is the first ROW, 3 Column -->
+            <th>ID</th>
+            
+            <th> Name</th>
+            
+            <th> Dept</th>
+        </tr>
+
+
+        <tr>  <!-- This is the second ROW, 3 Column -->
+            <td>002</td>
+            
+            <td> Mike</td>
+            
+            <td> Human Resouces</td>
+            
+        </tr>
+
+        <tr>  <!-- This is the third ROW, 3 Column -->
+            <td>003</td>
+            
+            <td> Brian</td>
+            
+            <td> Accounting</td>
+
+
+            <tr>  <!-- This is the fourth ROW, 3 Column -->
+                <td>004</td>
+                
+                <td>Justin</td>
+                
+                <td> IT</td>
+
+                <tr>  <!-- This is the fifthROW, 3 Column -->
+                    <td>005</td>
+                    
+                    <td>Morgan</td>
+                    
+                    <td> MaRKeting</td>
+    </table>
     
 <ol>
 
